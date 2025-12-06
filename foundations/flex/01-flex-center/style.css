@@ -3,8 +3,12 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  align-items: center;      /* For centering vertically*/
+  justify-content: center;   /* For centering horizontally*/
+  /* Damn! I used google to to solve it */
 }
-
+/* The goal is to center this div in the parent div*/
 .box {
   background: palevioletred;
   font-weight: bold;
