@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -23,4 +23,49 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* Remove the list type*/
+ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Style the links */
+.links a {
+  text-decoration: none;
+  color: rgb(61, 54, 54);
+}
+
+/* Style header and footer items */
+.header .links,
+.footer .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Style the content in the middle */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+/* Style footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: gray;
+  color: white;
 }
